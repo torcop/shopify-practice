@@ -1,0 +1,23 @@
+<h1>{{ section.settings.title }}</h1>
+<h1>{{ section.settings.subtext_title }}</h1>
+
+{% schema %}
+{
+  "name": "Template 404",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "404",
+      "label": "404 Heading Title"
+    },
+
+    {
+      "type": "text",
+      "id": "subtext_title",
+      "default": "The page you were looking for does not exist",
+      "label": "404 Subtext Title"
+    }
+  ]
+}
+{% endschema %}
