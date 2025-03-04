@@ -3,8 +3,10 @@
     "template": {
       "type": "template-404",
       "settings": {
-        "title": "409",
-        "subtext_title": "looking for does not exist"
+        "title": "404",
+        "subtext_title": "looking for does not exist",
+        "button_label": "Back to Home",
+        "button_url": ""
       }
     }
   },
